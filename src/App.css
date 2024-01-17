@@ -7,6 +7,15 @@
   pointer-events: none;
 }
 
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -32,7 +41,596 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
+  }
+}
+
+.FormInnerDiv {
+  width: 100vw;
+  flex-direction: column;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  height: 80vh;
+}
+
+form {
+  background-color: #F8F9FA;
+}
+
+.fieldsDiv {
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+  /* width: 50%; */
+  /* height: 100%; */
+  margin-bottom: 10px;
+}
+
+.fieldsDivDesc {
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+  /* width: 50%; */
+  /* height: 100%; */
+  margin-bottom: 10px;
+}
+
+.fieldsDiv input {
+  width: 40vw;
+  border-radius: 5px;
+}
+
+.OuterSkillDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 70%;
+  flex-wrap: wrap;
+  /* background-color: red; */
+}
+
+.fieldsDivSkill {
+  display: flex;
+  /* background-color: yellow; */
+  flex-direction: column;
+  width: 30%;
+  height: 27%;
+}
+
+.btnLast {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.OuterButtonsPrevNext {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.ButtonsPrevNext {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50vw;
+}
+
+.SkillInput {
+  width: 20vw !important;
+  border-radius: 5px;
+}
+
+.sb-skeleton {
+  position: relative;
+  flex: 1 0 auto;
+  height: 2px;
+  width: 30vw;
+  background-color: #dedede;
+  /* Adjust the color as needed */
+}
+
+.pg-list>li>span {
+  flex: 0 0 100px;
+}
+
+.sb-skeleton>.skillbar {
+  position: absolute;
+  left: 0;
+  top: -1px;
+  width: var(--pgbar-length);
+  height: 4px;
+  /* background-color: #4682bf; */
+  /* Adjust the color as needed */
+}
+
+.Full {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  /* background-color: yellow; */
+}
+
+.Resume {
+  height: 100%;
+  width: 40%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.Image {
+  height: 150px;
+  width: 150px;
+  /* background-color: red; */
+}
+
+.Image_Name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 170px;
+  width: 100%;
+  /* background-color: rgb(89, 143, 89); */
+  padding: 15px;
+  color: black;
+}
+
+.Name {
+  padding-right: 50px;
+}
+
+.Name p {
+  text-align: end;
+  font-size: 12px;
+}
+
+.Second_Third {
+  padding: 15px;
+  width: 100%;
+  height: 45%;
+  margin-top: 15px;
+  /* background-color: #4682bf; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.SecondSection {
+  width: 48%;
+  height: 100%;
+  /* background-color: gray; */
+}
+
+.green {
+  color: #598F59;
+}
+
+.orange {
+  color: #D5A68E;
+}
+
+.blue {
+  color: #0B5ED7;
+}
+
+.black {
+  color: black
+}
+
+.Skill_Last {
+  width: 100%;
+  padding: 15px;
+  height: 30%;
+}
+
+.ThirdSection {
+  width: 48%;
+  height: 100%;
+  /* background-color: green; */
+}
+
+.Education_p {
+  margin-left: 55px;
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+.Description_p {
+  font-size: 12px;
+}
+
+.HomeFull {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeleft {
+  width: 50%;
+  padding: 150px;
+  height: 100%;
+  background-color: #EFF2F9;
+}
+
+.colorbtn {
+  width: 100vw;
+  height: 50px;
+}
+
+.blues {
+  height: 50px;
+  border-radius: 30px;
+  background-color: #4682bf;
+  width: 50px;
+  border: none;
+}
+
+.greens {
+  height: 50px;
+  border-radius: 30px;
+  background-color: green;
+  width: 50px;
+  border: none;
+}
+
+.oranges {
+  height: 50px;
+  border-radius: 30px;
+  background-color: #D5A68E;
+  width: 50px;
+  border: none;
+}
+
+.homeleft h1 {
+  font-weight: 700;
+  font-size: 60px;
+  margin-bottom: 50px;
+}
+
+.homeleft h5 {
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+
+.HomeRight {
+  width: 50%;
+  height: 100%;
+  background-color: #EFF2F9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buildREsumebtn {
+  margin-top: 15px;
+}
+
+
+
+.HomeRight img {
+  width: 55%;
+  height: 90%;
+}
+
+@media (max-width:600px) {
+
+
+  .FormInnerDiv {
+    width: 100vw;
+    flex-direction: column;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    height: 80vh;
+  }
+
+  form {
+    background-color: #F8F9FA;
+  }
+
+  .fieldsDiv {
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 0px;
+    padding-left: 25px;
+    height: 80px;
+  }
+
+  .fieldsDivDesc {
+
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    width: 100%;
+    padding: 0px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    padding-left: 15px;
+    height: 100%;
+  }
+
+  .fieldsDiv input {
+    width: 80vw;
+    border-radius: 5px;
+  }
+
+  .OuterSkillDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    flex-wrap: wrap;
+    /* background-color: red; */
+  }
+
+  .fieldsDivSkill {
+    display: flex;
+    /* background-color: yellow; */
+    /* flex-direction: column; */
+    width: 40%;
+    height: 30%;
+  }
+
+  .btnLast {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .OuterButtonsPrevNext {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .ButtonsPrevNext {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50vw;
+  }
+
+  .SkillInput {
+    width: 40vw !important;
+    border-radius: 5px;
+  }
+
+  .sb-skeleton {
+    position: relative;
+    flex: 1 0 auto;
+    height: 2px;
+    width: 80vw;
+    background-color: #dedede;
+    /* Adjust the color as needed */
+  }
+
+  .pg-list>li>span {
+    flex: 0 0 100px;
+  }
+
+  .sb-skeleton>.skillbar {
+    position: absolute;
+    left: 0;
+    top: -1px;
+    width: var(--pgbar-length);
+    height: 4px;
+    /* background-color: #4682bf; */
+    /* Adjust the color as needed */
+  }
+
+  .Full {
+    height: 100vh;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    /* background-color: yellow; */
+  }
+
+  .Resume {
+    height: 100%;
+    width: 100% !important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  .Image {
+    height: 100px;
+    width: 100px;
+    /* background-color: red; */
+  }
+
+  .Image img {
+    height: 110px !important;
+    width: 110px !important;
+  }
+
+
+  .Image_Name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+    width: 100%;
+    /* background-color: rgb(89, 143, 89); */
+    padding: 15px;
+    color: black;
+  }
+
+  .Name {
+    padding-right: 10px;
+    color: white;
+  }
+
+  .Name p {
+    text-align: end;
+    font-size: 12px;
+  }
+
+  .Second_Third {
+    padding: 15px;
+    width: 100%;
+    height: 50%;
+    margin-top: 15px;
+    /* background-color: #4682bf; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .SecondSection {
+    width: 100%;
+    height: 50%;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* background-color: gray; */
+  }
+
+  .ThirdSection {
+    margin-top: 50px;
+    width: 100%;
+    height: 50%;
+    /* background-color: green; */
+  }
+
+  .green {
+    color: #598F59;
+  }
+
+  .orange {
+    color: #D5A68E;
+  }
+
+  .blue {
+    color: #0B5ED7;
+  }
+
+  .black {
+    color: black
+  }
+
+  .Skill_Last {
+    width: 100%;
+    padding: 15px;
+    height: 30%;
+    padding-top: 50px;
+  }
+
+
+
+  .Education_p {
+    margin-left: 55px;
+    font-size: 14px;
+    margin-bottom: 0px;
+  }
+
+  .Description_p {
+    font-size: 12px;
+  }
+
+  .HomeFull {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .homeleft {
+    width: 100%;
+    padding: 20px;
+    padding-top: 100px;
+    padding-left: 40px;
+    font-size: 20px !important;
+    height: 100%;
+    background-color: #EFF2F9;
+  }
+
+  .colorbtn {
+    width: 100vw;
+    height: 50px;
+  }
+
+
+  .homeleft h1 {
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 50px;
+  }
+
+  .homeleft h5 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+  }
+
+
+  .HomeRight {
+    width: 100%;
+    height: 100%;
+    background-color: #EFF2F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .buildREsumebtn {
+    margin-top: 15px;
+  }
+
+
+
+  .HomeRight img {
+    width: 60%;
+    height: 100%;
+  }
+
+  .blues {
+    height: 50px;
+    border-radius: 30px;
+    background-color: #4682bf;
+    width: 50px;
+    border: none;
+  }
+
+  .greens {
+    height: 50px;
+    border-radius: 30px;
+    background-color: green;
+    width: 50px;
+    border: none;
+  }
+
+  .oranges {
+    height: 50px;
+    border-radius: 30px;
+    background-color: #D5A68E;
+    width: 50px;
+    border: none;
   }
 }
